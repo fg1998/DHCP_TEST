@@ -3,7 +3,7 @@
 
 This device try to connect to DHCP server and get an IP adress. The oled display will show IP, netmask, DNS server, gateway and Mac address. Mac can be changed in the .ino file.
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image](https://github.com/fg1998/DHCP_TEST/blob/main/assets/screen_capture.png)
 
 ### Part List
 - Arduino nano (another arduino can be used, like UNO, mini, etc)
@@ -12,8 +12,8 @@ This device try to connect to DHCP server and get an IP adress. The oled display
 - Push button for reset (optional, nano reset can be used)
  
 ### Library used
-Ethercard - https://github.com/njh/EtherCard
-SSD1306Ascii - https://github.com/greiman/SSD1306Ascii
+- Ethercard - https://github.com/njh/EtherCard
+- SSD1306Ascii - https://github.com/greiman/SSD1306Ascii
 
 Thanks to Bill Greiman for SSD1306Ascii library. Normal SSD1306 library provided by adafruit cannot be used with Ethercard since arduino memory restrictions
 
@@ -39,4 +39,4 @@ Thanks to Bill Greiman for SSD1306Ascii library. Normal SSD1306 library provided
 Put a pushbutton between arduino RST and GND if you want a external Reset
 
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image](https://github.com/fg1998/DHCP_TEST/blob/main/assets/breadboard.png)
