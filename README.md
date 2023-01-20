@@ -3,6 +3,8 @@
 
 This device try to connect to DHCP server and get an IP adress. The oled display will show IP, netmask, DNS server, gateway and Mac address. Mac can be changed in the .ino file.
 
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+
 ### Part List
 - Arduino nano (another arduino can be used, like UNO, mini, etc)
 - SSD1306 SPI oled display (7 pins)
@@ -17,20 +19,24 @@ Thanks to Bill Greiman for SSD1306Ascii library. Normal SSD1306 library provided
 
 ## Conections
 
-Arduino NANO | ethernet board. | SPI Display
-D12             SO
-D11             SI
-D10             CS
-D13             SCK
-5V              VCC
-GND             GND
-D9                                SDA
-D7                                SCK
-D6                                RST
-D5                                DC
-D4                                CS
-5V                                VDD
-GND                               GND
+|Arduino NANO | ethernet board. | SPI Display |
+|-------------|-----------------|-------------|
+|D12          |   SO            |             |
+|D11          |   SI            |             |
+|D10          |   CS            |             |
+|D13          |   SCK           |             |
+|5V           |   VCC           |             |
+|GND          |   GND           |             |
+|D9           |                 |    SDA      |
+|D7           |                 |    SCK      |
+|D6           |                 |    RST      |
+|D5           |                 |    DC       |
+|D4           |                 |    CS       |
+|5V           |                 |    VDD      |
+|GND          |                 |    GND      |
 
 
 Put a pushbutton between arduino RST and GND if you want a external Reset
+
+
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
